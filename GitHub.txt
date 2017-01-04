@@ -1,0 +1,22 @@
+Tao thu muc ->trong thu muc -> git base 
+git init //Tao moi repo
+git add . or git add <ten file>
+git status
+git commit -m "ghi chu"
+
+Vao github -> Tao repository ->Dat ten
+copy link: git remote add origin https:/....
+copy link: git push -u origin master
+
+Tao branch
+git barnch dev_1 or git checkout -b dev_1
+git branch dev_2
+git checkout dev_1 //Chuyen nhanh dev_1
+
+
+T?o file moi up len nhanh dev_1
+git add <ten file>
+git status 
+git commit -m "ghi chu"
+git push origin dev_1
+git merge dev_1
