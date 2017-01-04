@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<title>De1Cau4</title>
+	</head>
+	<body>
+		<table id="myTable" border="1">
+                <tr>
+                    <td>Row1 cell1</td>
+                    <td>Row1 cell2</td>
+                </tr>
+                <tr>
+                    <td>Row2 cell1</td>
+                    <td>Row2 cell2</td>
+                </tr>
+            </table><br>
+            <input type="button" onclick="insert_Row()" value="Add row">	
+            
+            
+    <script>
+		function insert_Row() {
+   			var table=document.getElementById("myTable");
+    		var row=table.insertRow(2);
+   			var cell1=row.insertCell(0);
+    		var cell2=row.insertCell(1);
+    		cell1.innerHTML="1";
+    		cell2.innerHTML="2";
+		}
+	</script>
+	</body>	
+</html>
