@@ -14,9 +14,13 @@ git branch dev_2
 git checkout dev_1 //Chuyen nhanh dev_1
 
 
-T?o file moi up len nhanh dev_1
+Tao file moi up len nhanh dev_1
 git add <ten file>
 git status 
 git commit -m "ghi chu"
 git push origin dev_1
+
+Merge
+git checkout master
 git merge dev_1
+git push
